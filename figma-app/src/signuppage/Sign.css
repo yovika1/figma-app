@@ -1,0 +1,215 @@
+/* @import url('https://kit.fontawesome.com/d937303721.js'); */
+.bckgrdimg{
+    background-image: url('../media/Loginimg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+.iconfst{
+    display: flex;
+    position: absolute;
+    top:140px;
+    color: red;
+    left:49%;   
+    /* visibility:hidden; */
+}
+
+.iconlst{
+    display: flex;
+    position: absolute;
+    top:220px;
+    color: red;
+    left:49%;
+    visibility:hidden;
+
+}
+.iconemail{
+    display: flex;
+    position: absolute;
+    top:298px;
+    color: red;
+    left:49%;
+    visibility:hidden;
+
+}
+.iconphoneno{
+    display: flex;
+    position: absolute;
+    top:378px;
+    color: red;
+    left:49%;
+    visibility:hidden;
+}
+.iconpswd{
+    display: flex;
+    position: absolute;
+    top:458px;
+    color: red;
+    left:49%;
+    visibility:hidden;
+}
+.iconcnfm{
+    display: flex;
+    position: absolute;
+    top:534px;
+    color: red;
+    left:49%;
+    visibility:hidden;
+}
+.checkfst{
+    display: flex;
+    position: absolute;
+    top:140px;
+    color:rgb(52, 240, 52);;
+    left:49%;
+    visibility:hidden;
+}
+.checklst{
+    display: flex;
+    position: absolute;
+    top:220px;
+    color:rgb(52, 240, 52);;
+    left:49%;
+    visibility:hidden;
+}
+.checkemail{
+    display: flex;
+    position: absolute;
+    top:298px;
+    color: rgb(52, 240, 52);;
+    left:49%;
+    visibility:hidden;
+}
+.checkphno{
+    display: flex;
+    position: absolute;
+    top:372px;
+    color: rgb(52, 240, 52);
+    left:49%;
+    visibility:hidden;
+}
+.checkpswd{
+    display: flex;
+    position: absolute;
+    top:452px;
+    color: rgb(52, 240, 52);
+    left:49%;
+    visibility:hidden;
+}
+.checkcnfm{
+    display: flex;
+    position: absolute;
+    top:528px;
+    color: rgb(52, 240, 52);
+    left:49%;
+    visibility:hidden;
+}
+
+.box-outer {
+    border: 1px solid #ccc;
+    /* background-color:tomato; */
+    margin-bottom: 4px;
+    padding: 4px;
+    color:mediumblue;
+    height: 70vh;
+    width: 50%;
+    border-radius: 12px;
+    margin-top: 50px;
+    box-shadow: 2px 2px 8px#9fd4fc;
+    margin-left: 48vh;
+}
+/* Heading styles */
+.heading {
+    margin-bottom: 12px;
+    text-align: center;
+}
+/* Input control styles */
+.input-control {
+    transition: border .1s linear 0s, box-shadow .1s, width .25s, color .2s;
+    border: 1px solid #ced4da;
+    box-shadow: 0 1px 3px rgb(50 50 93 / 10%), 0 1px 0 rgb(0 0 0 / 2%);
+    display: block;
+    width:50%;
+    padding: .375rem .75rem;
+    font-size: .969rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #212529;
+    background-color: #FFF;
+    background-clip: padding-box;
+    appearance: none;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.input-control:focus {
+    border-color: #9fd4fc;
+    box-shadow: 0 0 0 4px rgb(0 149 255 / 15%);
+    background-color: #fffffa;
+    outline: 0;
+}
+/* Button styles */
+.button {
+    color: #FFFFFF;
+    /* box-shadow: 0 1px 3px rgb(50 50 93 / 10%), 0 1px 0 rgb(0 0 0 / 2%); */
+    /* background: linear-gradient(#6dbd45, #51a326); */
+    background-color: transparent;
+    border: 0;
+width: 200px;
+cursor: pointer;
+    padding: 25px;
+    position: absolute;
+    margin-top: -350px;
+    z-index: 1;
+    margin-left: 470px;
+    border-radius: 12px;
+}
+/* .button:focus {
+    background: linear-gradient(#5EA534, #519327);
+} */
+#d1{
+    height: 200px ;
+    width: 100px;
+    background-color: #519327;
+}
+.error{
+    position: absolute;
+    margin-top: -18px;
+    font-size: small;
+}
+
+.img1{
+   
+  position: absolute;
+    margin-top: -58vh;
+    height: 400px;
+    width: 320px;
+    margin-left: 55vh;
+}
+
+.sign{
+    width: 120px;
+    padding: 16px;
+    margin-left: 44%;
+    position: absolute;
+    background-color:rgb(123, 226, 226);
+    border-radius: 12px;
+    border: none;
+    color: aliceblue;
+    font-size:x-large;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+.sign:hover{
+    background-color: aqua;
+    color:blue;
+    padding: 20px;
+}
+.head1{
+    font-size:50px;
+    text-align: center;
+    margin-top: 200px;
+    color: darkblue;
+}
